@@ -5,8 +5,12 @@ The course looks really interesting and thre are a lot of new things to learn! T
 
 ## Linux CLI, and HTTP
 
-Linux Survival
-[Quiz 1 result](/assets/LinuxSurvivalQuiz1.png)
-[Quiz 2 result](/assets/LinuxSurvivalQuiz2.png)
-[Quiz 3 result](/assets/LinuxSurvivalQuiz3.png)
-[Quiz 4 result](/assets/LinuxSurvivalQuiz4.png)
+Linux Survival results:
+
+[Quiz 1](/assets/LinuxSurvivalQuiz1.png)
+
+[Quiz 2](/assets/LinuxSurvivalQuiz2.png)
+
+[Quiz 3](/assets/LinuxSurvivalQuiz3.png)
+
+[Quiz 4](/assets/LinuxSurvivalQuiz4.png)
