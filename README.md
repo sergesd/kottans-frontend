@@ -47,4 +47,4 @@ Visual Studio Code is a perfect environment for coding for web as for me - "a te
 
 Elements which do not need closing tags are called **void elements**.
 
-Test tasks can be found there: [simple tasks](task_html_css_intro/index.html) and [hottest jobs site mockup](task_html_css_intro/hottestJobsSiteMockup/index.html).
+Test tasks can be found there: [simple tasks](task_html_css_intro/index.html) and [hottest jobs site mockup](task_html_css_intro/hottestJobsSiteMockup.html).
