@@ -33,10 +33,18 @@ $ git fetch origin master -- receives commits from a remote repository, but do n
 
 **Fork** a repository means duplicate it to have an identical copy. The main difference with cloning the repository is that forking it creates a clone of the repository as your remote repository, not a local one.
 
-Commands to remember for easier commits finding:
+Commands to remember for easier commits finding:  
 $ git shortlog -- to see commits (short description) by authors.
 $ git log --author="Richard Kalehoff" -- commits by author.
 $ git log --grep="border radius issue in Safari" -- to filter commits by text in the commit message with help of grep command.
 
-The first thing you should always look for in a project (if you want to contribute to this project) is a file with the name CONTRIBUTING.md
+The first thing you should always look for in a project (if you want to contribute to this project) is a file with the name CONTRIBUTING.md  
 *Important!* Before you start doing any work, make sure to look for the project's CONTRIBUTING.md file.
+
+## Intro to HTML and CSS
+
+Visual Studio Code is a perfect environment for coding for web as for me - "a text editor on steroids!". So, I will use it for all tasks on this course.
+
+Elements which do not need closing tags are called **void elements**.
+
+Test tasks can be found there: [simple tasks](task_html_css_intro/index.html) and [hottest jobs site mockup](hottestJobsSiteMockup/index.html)
