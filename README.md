@@ -58,3 +58,7 @@ div {
 
 Classes vs attribute ids in css. Important: the id can be used just once.  
 Also for referering to elements with class in css we will use '.', like: .book-summery {}, and for the element with id we will use '#', for example: #site-description {}.
+
+CSS Units. New unit for me is: **em**. The em is simply the font size. And it scales, 2em means the current font size doubled, so if it's 12pt, 2em means 42pt.
+
+Note: in the example for CSS Units the first empty div with width: 100px; isn't displayed for me at all, comparing to what is shown in the lesson's video.
