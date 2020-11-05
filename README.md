@@ -48,3 +48,13 @@ Visual Studio Code is a perfect environment for coding for web as for me - "a te
 Elements which do not need closing tags are called **void elements**.
 
 Test tasks can be found there: [simple tasks](task_html_css_intro/index.html) and [hottest jobs site mockup](task_html_css_intro/hottestJobsSiteMockup.html).
+
+All css begins with a ruleset (selector and a declaration block), for example:
+```css
+div {
+    text-align: right;
+}
+```
+
+Classes vs attribute ids in css. Important: the id can be used just once.  
+Also for referering to elements with class in css we will use '.', like: .book-summery {}, and for the element with id we will use '#', for example: #site-description {}.
