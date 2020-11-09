@@ -62,3 +62,5 @@ Also for referering to elements with class in css we will use '.', like: .book-s
 CSS Units. New unit for me is: **em**. The em is simply the font size. And it scales, 2em means the current font size doubled, so if it's 12pt, 2em means 42pt.
 
 Note: in the example for CSS Units the first empty div with width: 100px; isn't displayed for me at all, comparing to what is shown in the lesson's video.
+
+What if you wanted to use the same CSS on more than one webpage? The preferred method is to write your CSS in a file called a **stylesheet** and then link to that file in your HTML.
