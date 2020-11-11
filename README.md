@@ -64,3 +64,52 @@ CSS Units. New unit for me is: **em**. The em is simply the font size. And it sc
 Note: in the example for CSS Units the first empty div with width: 100px; isn't displayed for me at all, comparing to what is shown in the lesson's video.
 
 What if you wanted to use the same CSS on more than one webpage? The preferred method is to write your CSS in a file called a **stylesheet** and then link to that file in your HTML.
+
+
+## JS Basics
+
+
+JavaScript is known as a loosely typed language, in comparision to, for example, Swift - a strongly typed language.
+
+"1" === 1 -> false (strict equality operator)
+
+**Hoisting** - the way of moving of functions, and variable declarations, !important!, just decalarations wihout any value assigments to the top of a function of file. So, you can refer to the function or variable even if it's declared bellow the current code. But it's still better to declare functions and variables at the top of your scripts.
+
+When a function is stored inside a variable it's called a **function expression**. It's **an anonymous function**, a function with no name, and you've stored it in a variable:
+
+```js
+var catSays = function(max) { 
+  // code here 
+};
+```
+**Functions as parameters** Function expression is mainly used to pass the function into another function. A function that is passed into another function is called a callback.
+
+**Anonymous inline function** expressions are often used with function callbacks that are probably not going to be reused elsewhere. Yes, you could store the function in a variable, give it a name, and pass it in like you saw in the examples above. However, when you know the function is not going to be reused, it could save you many lines of code to just define it inline.
+
+Looks like closures in Swift, as for me:
+
+```js
+// Function declaration that takes in two arguments: a function for displaying
+// a message, along with a name of a movie
+function movies(messageFunction, name) {
+  messageFunction(name);
+}
+
+// Call the movies function, pass in the function and name of movie
+movies(function displayFavorite(movieName) {
+  console.log("My favorite movie is " + movieName);
+}, "Finding Nemo");
+```
+
+Operations on arrays: length(), push(), pop(), splice(), shift(), unshift(), etc.
+
+**Objects** have properties (information about the object) and methods (functions or capabilities the object has). They are described with "key: value" notation, separated from each other by commas, and the object itself is wrapped inside curly braces { }. Using sister["parents"] is called bracket notation (because of the brackets!) and using sister.parents is called dot notation (because of the dot!).
+
+```js
+var sister = {
+  name: "Sarah", 
+  age: 23,
+  parents: [ "alice", "andy" ],
+  paintPicture: function() { return "Sarah paints!"; }
+};
+```
