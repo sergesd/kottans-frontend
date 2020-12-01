@@ -113,3 +113,35 @@ var sister = {
   paintPicture: function() { return "Sarah paints!"; }
 };
 ```
+
+Functional programming is about:
+<ul>
+<li>Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change.</li>
+<li>Pure functions - the same input always gives the same output.</li>
+<li>Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled.</li>
+</ul>
+
+
+Functions that can be assigned to a variable, passed into another function, or returned from another function just like any other normal value, are called **first class functions**. In JavaScript, all functions are first class functions.
+
+The functions that take a function as an argument, or return a function as a return value are called **higher order functions**.
+
+When the functions are passed in to another function or returned from another function, then those functions which gets passed in or returned can be called a **lambda**.
+
+One of the core principles of functional programming is ***to not change things***. Changes lead to bugs!
+
+Two distinct principles for functional programming:
+<ul>
+<li>Don't alter a variable or object - create new variables and objects and return them if need be from a function.</li>
+<li>Declare function arguments - any computation inside a function depends only on the arguments, and not on any global object or variable.</li>
+</ul>
+
+***Currying a function*** means to convert a function of N arity into N functions of arity 1. -- I've never used this before.
+
+#### JavaScript Basics results:  
+[Basic JavaScript](/task_js_basics/assets/JSBasicJavaScript.png)  
+[ES6 Challenges ](/task_js_basics/assets/JSES6Complete.png)  
+[Basic Data Structures](/task_js_basics/assets/JSBasicDataStructure.png)  
+[Basic Algorithm Scripting](/task_js_basics/assets/JSBasicAlgorithmScripting.png)  
+[Functional Programming](/task_js_basics/assets/JSFunctionalProgramming.png)  
+[Algorithm Scripting Challenges](/task_js_basics/assets/JSAlgorithmScriptingChallenges.png)  
